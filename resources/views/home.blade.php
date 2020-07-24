@@ -75,7 +75,7 @@ option, td{
             </div>
         </div>
         <hr>
-        <table  id="usersTable" class="w3-table-all" style="border-radius: 25px;">
+        <table  id="usersTable" class="w3-table-all" >
             <tr>
                 <th scope="">Name</th>
                 <th scope="">Priority</th>

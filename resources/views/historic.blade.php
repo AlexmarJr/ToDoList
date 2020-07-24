@@ -36,6 +36,12 @@ option, td{
     text-transform: uppercase;
     word-break:break-word
 }
+.x1{
+    border-radius: 25px;
+    border: 2px solid black; 
+    background-color: gray; 
+    padding: 10px
+}
 </style>
 
 @if(isset($head))
@@ -47,7 +53,7 @@ option, td{
 
 
 <body>
-    <div class="container" style="border: 2px solid black">
+    <div class="container x1" style="border: 2px solid black">
     @include('flash::message')
         <div class="row"> 
             <div class="col">

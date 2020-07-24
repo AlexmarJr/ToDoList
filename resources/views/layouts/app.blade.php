@@ -31,7 +31,7 @@
     }
 
 </style>
-<body style="opacity: 0.8;">
+<body style="opacity: 0.9;">
     <div id="app">
     <div class="container"> 
         <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm" style="border-radius: 15px 50px 30px 5px;">
