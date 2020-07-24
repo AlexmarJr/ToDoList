@@ -36,6 +36,13 @@ option, td{
     text-transform: uppercase;
     word-break:break-word
 }
+
+.x1{
+    border-radius: 25px;
+    border: 2px solid black; 
+    background-color: gray; 
+    padding: 10px
+}
 </style>
 
 @if(isset($head))
@@ -48,7 +55,7 @@ option, td{
 
 <body>
 <button class="btn btn-primary" data-toggle="modal" data-target=".news-modal" style="padding: 15px;">Stay Updated</button>
-    <div class="container" style="border: 2px solid black">
+    <div class="container x1">
     @include('flash::message')
         <div class="row"> 
             <div class="col">
@@ -60,7 +67,7 @@ option, td{
             </div>
          
             <div class="col">
-                <h2 style="text-align: center; margin-top: 15px" >Your Tasks</h2>
+                <h2 style="text-align: center; margin-top: 15px; color: white" >Your Active Tasks</h2>
             </div>
             
             <div class="col">
@@ -68,7 +75,7 @@ option, td{
             </div>
         </div>
         <hr>
-        <table  id="usersTable" class="w3-table-all">
+        <table  id="usersTable" class="w3-table-all" style="border-radius: 25px;">
             <tr>
                 <th scope="">Name</th>
                 <th scope="">Priority</th>

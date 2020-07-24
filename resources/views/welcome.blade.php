@@ -72,9 +72,9 @@
 
 
             .links > a {
-                color: black;
+                color: white;
                 padding: 0 25px;
-                font-size: 23px;
+                font-size: 26px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -112,6 +112,9 @@
                 transform: rotate(-350deg); 
                 font-size: 22px 
             }
+            a{
+                color: white;
+            }
 }
         </style>
     </head>
@@ -131,36 +134,7 @@
                 </div>
             @endif
 
-        <div class="content top">
-           <h1>How our ToDo List will help you??</h1>
-           <br>
-           <h1>Well...</h1><small style="text-align: center">Sorry, my design skills sucks</small>
-        </div>
-
-        <div class="form">
-            <div class="container first">
-                <h2>Organization!</h2><br><br>
-                <p> Organizations are systems created to achieve common goals through people-to-people and people-to-work relationships. They are essentially social entities that are goal-directed, deliberately structured for coordinated activity systems, and is linked to the external environment. Organizations are made up of people and their relationships with one another. Managers deliberately structure and coordinate organizational resources to achieve the organization’s purpose.</p>
-            </div>
-            <hr>
-        </div>
-
-        <div class="form">
-            <div class="container second">
-                <h2>It's Pratical!</h2><br>
-                <p>Easy to use, Dont worry you wont be stuck dont knowing what to do dont matters what you skills using the internet! :)</p>
-            </div>
-            <hr>
-        </div>
-
-        <div class="form">
-            <div class="third">
-                <h2>It will remenber</h2><br>
-                <p>Forgot where you where days ago? dont worry! the system will remenber where you were, you just need ask him! :)</p>
-            </div>
-            <hr>
-        </div>
-
-       
+            <h1 style="color: Black">Lets us help you to org<span style="color: white">anize yours Tasks</span></h1>
+            
     </body>
 </html>

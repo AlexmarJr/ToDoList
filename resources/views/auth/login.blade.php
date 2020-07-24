@@ -57,6 +57,10 @@
                                     {{ __('Login') }}
                                 </button>
 
+                                <button id="testButton" type="button" onclick="testAccount()" class="btn btn-danger">
+                                    {{ __('Login with Test Account') }}
+                                </button>
+                            
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
                                         {{ __('Forgot Your Password?') }}
@@ -70,4 +74,11 @@
         </div>
     </div>
 </div>
+<script>
+    function testAccount(){
+        $("#email").val('test@gmail.com');
+        $("#password").val('12345678');
+        $("#testButton").attr('type','submit');
+    }
+</script>
 @endsection
