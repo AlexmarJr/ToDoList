@@ -131,6 +131,7 @@
                             <a href="{{ route('register') }}">Registrar</a>
                         @endif
                     @endauth
+                    <a href="https://github.com/AlexmarJr/Laravel_ToDoList">| GitHub Source Code</a>
                 </div>
             @endif
 
