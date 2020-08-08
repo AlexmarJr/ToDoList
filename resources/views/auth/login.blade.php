@@ -58,7 +58,7 @@
                                 </button>
 
                                 <button id="testButton" type="button" onclick="testAccount()" class="btn btn-danger">
-                                    {{ __('Login with Test Account') }}
+                                    {{ __('Entrar com conta teste') }}
                                 </button>
                             
                                 @if (Route::has('password.request'))
